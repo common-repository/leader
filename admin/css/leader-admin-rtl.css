@@ -1,0 +1,47 @@
+body{
+	text-align: right;
+}
+.txt-left-align {
+    text-align: right;
+}
+.bmd-form-group [class^="bmd-label"].bmd-label-floating, .bmd-form-group [class*=" bmd-label"].bmd-label-floating {
+
+    will-change: right, top, contents;
+    margin: 0;
+    line-height: 1.4;
+    font-weight: 400;
+
+}
+.is-focused .bmd-label-floating, .is-filled .bmd-label-floating {
+    right: 0;
+}
+.lr-wave-status {
+    justify-content: right;
+}
+.lr-th-status, .dropdown-item-fas.fa-user-cog, .dropdown-item-fas.fa-user-check, .dropdown-item-fas.fa-user-clock {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.lr-wave-btn {
+    float: right;
+}
+.rtl .dropdown-menu {
+    /* right: 215px; */
+}
+.dropdown-toggle::after {
+    margin-left: 0em;
+    margin-right: .5em;
+}
+.card-icon {
+    float: right !important;
+    margin-right: 30px;
+}
+[data-notify="container"] .close{
+	float: left;
+}
+.lr-inspector {
+    padding: 15px 30px;
+}
+.lr-pos-left-right {
+    flex-direction: row-reverse;
+}

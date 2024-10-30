@@ -1,0 +1,13 @@
+#lr_form .lr-form-btn-wrap {
+    justify-content: flex-end;
+    display: flex;
+}
+#lr_form {
+    justify-content: flex-end !important;
+}
+#lr_form input, #lr_form textarea, #lr_form input {
+    width: 100%;
+}
+#lr_form_cta {
+    padding: 0 20px 10px;
+}
